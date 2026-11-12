@@ -73,6 +73,3 @@ node harness/build.mjs && NOTES_ROOT=/tmp/notes-demo node harness/dist/run.mjs  
 - Não há testes automatizados de interface no repositório além das capturas (`harness/e2e/captures.mjs`); a lógica de arquivos e segurança tem testes unitários.
 - Sem sincronização, sem controle de versão próprio (só as cópias em `.lixeira`), sem criptografia.
 
-## Licença
-
-MIT. Partes adaptadas do plugin Docs de get-bb/bb (MIT): ver [NOTICE.md](NOTICE.md).
